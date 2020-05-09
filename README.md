@@ -13,8 +13,10 @@ e.g.
 <pre>
 # Use ppwd with awk to obtain the masked text and plain text for use in other processes.
 ppwd=`echo "hello_world" | ppwd`
-masked=`echo "$ppwd" | awk '{split($0,mpl,"|")} END{print mpl[1]}'` # Where 1 is the index for the masked text.
-plain=`echo "$ppwd" | awk '{split($0,mpl,"|")} END{print mpl[2]}'`  # Where 2 is the index for the plain text; use 3 for number of characters.
+masked=`echo "$ppwd" | awk '{split($0,mpl,"|")} END{print mpl[1]}'`
+# Where 1 is the index for the masked text.
+plain=`echo "$ppwd" | awk '{split($0,mpl,"|")} END{print mpl[2]}'`
+# Where 2 is the index for the plain text; use 3 for number of characters.
 </pre>
 
 #### Build (produces Lua bytecode)
