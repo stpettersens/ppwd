@@ -2,10 +2,10 @@
 > **p**rint **p**ass**w**or**d**
 
 A simple Lua program which can pipe stdin to stdout as triad of masked text (e.g. for a password), plain text and number of characters.
-e.g. 
+e.g.
 <pre>
  shell> echo "foobar" | ppwd
- ******|foobar|6 
+ ******|foobar|6
 </pre>
 
 #### Usage example (Shellscript):
@@ -21,7 +21,7 @@ plain=`echo "$ppwd" | awk '{split($0,mpl,"|")} END{print mpl[2]}'`
 
 #### Build (produces Lua bytecode)
 
->make 
+>make
 
 #### Install Lua bytecode + shell wrapper (to /usr/local/bin on Unix-like system):
 
