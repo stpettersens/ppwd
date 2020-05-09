@@ -2,7 +2,7 @@ ppwd
 A simple Lua program which can pipe stdin to stdout as triad of masked test (e.g. for a password),
 plain text and number of characters.
 
-Copyright (c) 2020 Sam Saint-Pettersen
+Copyright (c) 2020 Sam Saint-Pettersen.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
