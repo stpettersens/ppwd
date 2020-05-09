@@ -1,4 +1,6 @@
-MIT License
+ppwd
+A simple Lua program which can pipe stdin to stdout as triad of masked test (e.g. for a password),
+plain text and number of characters.
 
 Copyright (c) 2020 Sam Saint-Pettersen
 
